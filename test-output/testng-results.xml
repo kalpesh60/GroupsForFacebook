@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="10" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-01T16:27:02Z" name="Suite" finished-at="2021-10-01T16:27:10Z" duration-ms="7780">
+    <groups>
+      <group name="group2">
+        <method signature="FacebookGroups.launchBrowser()[pri:0, instance:Testng.GitProject.FacebookGroups@6bbe85a8]" name="launchBrowser" class="Testng.GitProject.FacebookGroups"/>
+        <method signature="FacebookGroups.terminateBrowser()[pri:9, instance:Testng.GitProject.FacebookGroups@6bbe85a8]" name="terminateBrowser" class="Testng.GitProject.FacebookGroups"/>
+        <method signature="FacebookGroups.verifyCreateNewAccountField()[pri:1, instance:Testng.GitProject.FacebookGroups@6bbe85a8]" name="verifyCreateNewAccountField" class="Testng.GitProject.FacebookGroups"/>
+      </group> <!-- group2 -->
+      <group name="group1">
+        <method signature="FacebookGroups.launchBrowser()[pri:0, instance:Testng.GitProject.FacebookGroups@6bbe85a8]" name="launchBrowser" class="Testng.GitProject.FacebookGroups"/>
+        <method signature="FacebookGroups.terminateBrowser()[pri:9, instance:Testng.GitProject.FacebookGroups@6bbe85a8]" name="terminateBrowser" class="Testng.GitProject.FacebookGroups"/>
+        <method signature="FacebookGroups.verifyCreateNewAccountField()[pri:1, instance:Testng.GitProject.FacebookGroups@6bbe85a8]" name="verifyCreateNewAccountField" class="Testng.GitProject.FacebookGroups"/>
+        <method signature="FacebookGroups.verifyDOBField()[pri:6, instance:Testng.GitProject.FacebookGroups@6bbe85a8]" name="verifyDOBField" class="Testng.GitProject.FacebookGroups"/>
+        <method signature="FacebookGroups.verifyFirstNameField()[pri:2, instance:Testng.GitProject.FacebookGroups@6bbe85a8]" name="verifyFirstNameField" class="Testng.GitProject.FacebookGroups"/>
+        <method signature="FacebookGroups.verifyMobileNoField()[pri:4, instance:Testng.GitProject.FacebookGroups@6bbe85a8]" name="verifyMobileNoField" class="Testng.GitProject.FacebookGroups"/>
+      </group> <!-- group1 -->
+    </groups>
+    <test started-at="2021-10-01T16:27:02Z" name="Test" finished-at="2021-10-01T16:27:10Z" duration-ms="7780">
+      <class name="Testng.GitProject.FacebookGroups">
+        <test-method is-config="true" signature="beforeGroup()[pri:0, instance:Testng.GitProject.FacebookGroups@6bbe85a8]" started-at="2021-10-01T16:27:02Z" name="beforeGroup" finished-at="2021-10-01T16:27:02Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeGroup -->
+        <test-method signature="launchBrowser()[pri:0, instance:Testng.GitProject.FacebookGroups@6bbe85a8]" started-at="2021-10-01T16:27:02Z" name="launchBrowser" finished-at="2021-10-01T16:27:04Z" duration-ms="2640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyCreateNewAccountField()[pri:1, instance:Testng.GitProject.FacebookGroups@6bbe85a8]" started-at="2021-10-01T16:27:04Z" name="verifyCreateNewAccountField" finished-at="2021-10-01T16:27:04Z" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateNewAccountField -->
+        <test-method signature="verifyFirstNameField()[pri:2, instance:Testng.GitProject.FacebookGroups@6bbe85a8]" started-at="2021-10-01T16:27:04Z" name="verifyFirstNameField" finished-at="2021-10-01T16:27:05Z" duration-ms="577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFirstNameField -->
+        <test-method signature="verifyMobileNoField()[pri:4, instance:Testng.GitProject.FacebookGroups@6bbe85a8]" started-at="2021-10-01T16:27:05Z" name="verifyMobileNoField" finished-at="2021-10-01T16:27:05Z" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMobileNoField -->
+        <test-method signature="verifyDOBField()[pri:6, instance:Testng.GitProject.FacebookGroups@6bbe85a8]" started-at="2021-10-01T16:27:05Z" name="verifyDOBField" finished-at="2021-10-01T16:27:05Z" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDOBField -->
+        <test-method signature="terminateBrowser()[pri:9, instance:Testng.GitProject.FacebookGroups@6bbe85a8]" started-at="2021-10-01T16:27:05Z" name="terminateBrowser" finished-at="2021-10-01T16:27:10Z" duration-ms="4125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+        <test-method is-config="true" signature="afterGroup()[pri:0, instance:Testng.GitProject.FacebookGroups@6bbe85a8]" started-at="2021-10-01T16:27:10Z" name="afterGroup" finished-at="2021-10-01T16:27:10Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterGroup -->
+      </class> <!-- Testng.GitProject.FacebookGroups -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
